@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key="AIzaSyD7xrUfkR7ei-jrzO4UL0FbTT5lzoHa5n8")
+llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key="")
 
 
 def build_chat_history(state: AgentState, limit: int = 10):
@@ -281,5 +281,6 @@ def generate_answer(state: AgentState):
 def fallback(state: AgentState):
     state['answer'] = "Sorry but I'm unable to answer this question."
     return state
+
 
 
