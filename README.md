@@ -28,7 +28,6 @@ Persistence checkpointer: Sqlite saver
 Endpoint: FastAPI
 UI: streamlit
 Framework: langchain, langgraph
-================================================
 
 
 Upload and Index
