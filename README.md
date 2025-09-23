@@ -45,3 +45,19 @@ user query. If it completely filters out or discards the chunks then refine quer
 else if there is atleast one candidate chunk, it proceeds to answer generation.
 Refine query again tries to rephrase the query better so that better retrieval can happen.
 Finally post answer generation we save the state using sqlite saver.
+
+
+All of the functional node implementation in chat function is encapsulated in the graph structure in chat graph file,
+with sqlite saver being the checkpointer persistence state saving option.
+
+Exposing Endpoint
+===================
+We expose the endpoint for chat function using FastAPI in the chat_app file and,
+the endpoint for indexation in the index_app file.
+
+UI
+======
+We have a very simple UI implementation leveraging streamlit which interacts with the endpoints.
+
+
+
