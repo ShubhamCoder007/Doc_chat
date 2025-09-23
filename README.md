@@ -18,6 +18,19 @@ streamlit run Streamlit_app.py
 
 *******************************************************************************************************
 
+Techniques and frameworks
+================================================
+Vector data base & Retriever: chromadb / Chroma
+Embeddings: MiniLM L6, embedding dim 384
+LLM: gemini 2 flash
+Architecture: Multi turn Agentic RAG
+Persistence checkpointer: Sqlite saver
+Endpoint: FastAPI
+UI: streamlit
+Framework: langchain, langgraph
+================================================
+
+
 Upload and Index
 =================
 We first upload a document, perform content extraction using pymupdf.
