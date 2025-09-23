@@ -60,4 +60,11 @@ UI
 We have a very simple UI implementation leveraging streamlit which interacts with the endpoints.
 
 
+Scopes for improvement and Future scopes
+===========================================
+Robust chunking pipeline like semantic chunking with added table data preserving capability.
+Richer metadata field population while indexing.
+Advanced vector retrieval strategies like hybrid retrieval / multivector retrieval.
+Query decomposition and augmentation pipeline.
+Chunk continuation implementation.
 
