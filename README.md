@@ -20,14 +20,15 @@ streamlit run Streamlit_app.py
 
 Techniques and frameworks
 ================================================
-Vector data base & Retriever: chromadb / Chroma
-Embeddings: MiniLM L6, embedding dim 384
-LLM: gemini 2 flash
-Architecture: Multi turn Agentic RAG
-Persistence checkpointer: Sqlite saver
-Endpoint: FastAPI
-UI: streamlit
-Framework: langchain, langgraph
+- **Vector database & Retriever**: ChromaDB / Chroma  
+- **Embeddings**: MiniLM L6, embedding dim 384  
+- **LLM**: Gemini 2 Flash  
+- **Architecture**: Multi-turn Agentic RAG  
+- **Persistence checkpointer**: SQLite saver  
+- **Endpoint**: FastAPI  
+- **UI**: Streamlit  
+- **Framework**: LangChain, LangGraph  
+
 
 
 Upload and Index
